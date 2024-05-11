@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+#canvas {
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
