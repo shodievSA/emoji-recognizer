@@ -1,0 +1,13 @@
+{
+  "name": "brain",
+  "version": "1.0.0",
+  "description": "- <b>Emoji recognizer using brain.js neural network library.</b>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
