@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/brain.js@2.0.0-beta.23/dist/browser.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
     <title>Emoji Recognizer</title>
 </head>
 <body>
-    <canvas id="canvas">Your browser isn't supported</canvas>
+
+    <div id="page-container">
+        <div id="user-guide">
+            <h1 class="instructions">Instructions:</h1>
+            <ul class="instructions-list">
+                <li>Draw either positive or negative emoji.</li>
+                <li>Press the "V" key on your keyboard and confirm the emoji you drew.</li>
+                <li>To clean the canvas, press the "C" key on your keyboard.</li>
+                <li>Provide 3 to 5 samples for each emoji.</li>
+                <li>To test the neural network, draw the emoji and press the "B" key.</li>
+                <li>You don't need to train the model again after reloading, as training data is saved in the local storage of your browser.</li>
+            </ul>
+        </div>
+        <div id="main">
+            <canvas id="canvas">Your browser isn't supported</canvas>
+        </div>
+    </div>
 
     <script type="module" src="script.js"></script>
 </body>

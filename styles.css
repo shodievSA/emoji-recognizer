@@ -1,14 +1,51 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: "Inter";
+    height: 100%;
+    margin: 0;
+}
+
+#page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    height: 100%;
+}
+
+#user-guide {
+    width: 40%;
+}
+
+.instructions {
+    font-size: 2.25rem;
+}
+
+.instructions-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-type: decimal;
+    font-size: 1.5rem;
+}
+
+#project-name {
+    font-size: 2.5rem;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
 }
 
 #canvas {
     display: block;
-    position: absolute;
     background-color: white;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
